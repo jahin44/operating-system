@@ -39,5 +39,5 @@ int main()
     printf("%f %f\n",s2/n,s1/n);
 
 
-
+return 0;
 }
