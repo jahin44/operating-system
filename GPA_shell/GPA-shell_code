@@ -1,0 +1,30 @@
+#! /bin/bash 
+
+
+  read -p 'enter your  number : ' var
+
+  if [ "$var" -gt 79 ] && [ "$var" -lt 100 ]
+   then
+     echo "A+ = 5.00"
+     elif [ "$var" -gt 69 ] && [ "$var" -lt 80 ]
+        then
+           echo "A =4.00"
+            elif [ "$var" -gt 59 ] && [ "$var" -lt 70 ]
+               then
+                 echo "A- = 3.50"
+                    elif [ "$var" -gt 49 ] && [ "$var" -lt 60 ]
+                      then
+                         echo "B = 3.00"
+                           elif [ "$var" -gt 39 ] && [ "$var" -lt 50 ]
+                              then
+                                echo "C = 2.00"
+                                  elif [ "$var" -gt 32 ] && [ "$var" -lt 40 ]
+                                     then
+                                        echo "D = 2.00"
+
+
+
+                                     else
+                                        echo "F =0.00"    
+                                        fi
+
